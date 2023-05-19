@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "100843931356",
+    "project_id": "eticaret-ccb79",
+    "storage_bucket": "eticaret-ccb79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100843931356:android:de0c30732dae8fee205619",
+        "android_client_info": {
+          "package_name": "com.example.flutter_eticaret"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100843931356-gd3dki8sddo39ptu9oigrhksfcsa6912.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_eticaret",
+            "certificate_hash": "55f20485da4e2f9fb16c38cef4f5e4971d68c7c0"
+          }
+        },
+        {
+          "client_id": "100843931356-s6rol377e3jpu13d19eem7mu2bojtpqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdlh70ytWdRUby3QCdhg2LkvCv_IPF5ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100843931356-s6rol377e3jpu13d19eem7mu2bojtpqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
