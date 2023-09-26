@@ -33,3 +33,8 @@ A new Flutter project.
 
 ![homepage](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/ddb4eb9d-c862-4525-879a-cd9804fc7578)
 ![homepage2](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/3cc97909-f7dc-40af-8e10-381c9ffa8ad5)
+
+                                                   Items page
+
+![itemspage](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/ff69e346-9bfe-4744-a224-7aa4a46c6310)
+![Items, page 2](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/800e9dec-1b09-4d58-be4e-5efaf8826d51)
