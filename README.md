@@ -23,6 +23,5 @@ A new Flutter project.
 ![forgetpassword](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/83b0472f-a399-4b91-81f5-b20e0b0dff6f)
 ![verifycode](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/24780a0f-81b7-42af-84fd-fd5b16811ecd)
 ![resetpassword](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/ab8e52c1-75cc-4b11-8249-38bcdca0d8c2)
-![succsessignup]
-(https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/35853daf-90ee-4aa0-921a-535103101802)
+![succsessignup](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/ea919f2a-0f29-43ed-adb7-06970a20333b)
 ![sucssesresetpassword](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/aaa8ef2d-ab6d-4433-87a9-8cfe93742ea4)
