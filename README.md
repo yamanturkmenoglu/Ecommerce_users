@@ -43,5 +43,9 @@ A new Flutter project.
 
 
 ![search](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/2bc03ffa-aae9-41c7-a0f2-372c4a38c56e)
-
 ![Notification](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/87d34142-2a3d-42e9-abac-5d1b28c81950)
+
+                                                   Favorite page
+
+![Favorite page](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/42794f33-3974-4839-8edd-a10a40c66ff2)
+
