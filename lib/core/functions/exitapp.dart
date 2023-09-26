@@ -16,14 +16,20 @@ Future<bool> alertExitApp() {
             onPressed: () {
               exit(0);
             },
-            child: Text("49".tr)),
+            child: Text(
+              "49".tr,
+              style: const TextStyle(color: Appcolor.white),
+            )),
         ElevatedButton(
             style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Appcolor.orange)),
             onPressed: () {
               Get.back();
             },
-            child: Text("50".tr))
+            child: Text(
+              "50".tr,
+              style: const TextStyle(color: Appcolor.white),
+            ))
       ]);
   return Future.value(true);
 }

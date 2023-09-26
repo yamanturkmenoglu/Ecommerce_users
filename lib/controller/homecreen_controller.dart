@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_eticaret/controller/myfavorite_controller.dart';
+import 'package:flutter_eticaret/view/screen/cart.dart';
+
 import 'package:flutter_eticaret/view/screen/home.dart';
+import 'package:flutter_eticaret/view/screen/myfavorite.dart';
+import 'package:flutter_eticaret/view/screen/profile.dart';
+
 import 'package:get/get.dart';
+
+import 'cart_controller.dart';
 
 abstract class HomescreensController extends GetxController {
   changePage(int currentpage);
@@ -11,23 +19,26 @@ class HomescreenControllerImp extends HomescreensController {
 
   List<Widget> listPage = [
     const Homepage(),
-    Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: const [Center(child: Text("sopping basket"))],
-    ),
-    Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: const [Center(child: Text("favori"))],
-    ),
-    Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: const [Center(child: Text("profile"))],
-    ),
+    const Cart(),
+    const MyFavorite(),
+    const Profile(),
   ];
 
   @override
-  changePage(int i) {
+  void changePage(int i) {
     currentpage = i;
+    if (i == 1 || i == 2) {
+      updateData();
+    }
+
     update();
+  }
+
+  void updateData() {
+    MyFavoriteController myFavoriteController = Get.find();
+    myFavoriteController.updateData();
+    CartController cartController =
+        Get.put(CartController()); // CartController'ı çağırın
+    cartController.view();
   }
 }

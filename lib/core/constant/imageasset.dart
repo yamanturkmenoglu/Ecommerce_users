@@ -7,8 +7,9 @@ class AppImageasset {
   static const String onBoardingimageiki = "$rootimages/3.png";
   static const String onBoardingimageuc = "$rootimages/2.png";
   static const String logo = "$rootimages/logo.png";
-  static const String lap = "$rootimages/4.png";
-  static const String lap2 = "$rootimages/5.png";
+  static const String sale = "$rootimages/sale.png";
+  static const String delivery1 = "$rootimages/delivery1.png";
+  static const String stor = "$rootimages/stor.png";
 
   //====================================================lottie
   static const String server = "$rootlottie/server.json";

@@ -29,7 +29,7 @@ class Textfromfildloginpassword extends StatelessWidget {
               return "45".tr;
             }
             const passwordPattern =
-                r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$';
+                r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~.]).{8,}$';
             final passwordValid = RegExp(passwordPattern).hasMatch(value);
             if (!passwordValid) {
               return "46".tr;

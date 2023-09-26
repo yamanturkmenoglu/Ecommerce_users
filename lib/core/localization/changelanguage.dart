@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_eticaret/core/functions/frmessaging.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 
 import '../services/services.dart';
@@ -16,8 +18,33 @@ class LocaleController extends GetxController {
     Get.updateLocale(locale);
   }
 
+  requestperlocation() async {
+    bool serviceEnabled;
+    LocationPermission permission;
+    serviceEnabled = await Geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
+      return Get.snackbar("uyarı", "Lütfen Konum Hizmetini Açın");
+    }
+    permission = await Geolocator.checkPermission();
+    if (permission == LocationPermission.denied) {
+      permission = await Geolocator.requestPermission();
+      if (permission == LocationPermission.denied) {
+        return Get.snackbar(
+            "uyarı", "Lütfen UYgulamaya konum Erişimi İzni Verin");
+      }
+    }
+
+    if (permission == LocationPermission.deniedForever) {
+      return Get.snackbar(
+          "uyarı", " UYgulamaya konum Erişimi İzni Vermeden Kullanamazsınız ");
+    }
+  }
+
   @override
   void onInit() {
+    requestPermissionNotification();
+    fcmconfig();
+    requestperlocation();
     String? sharedPrefLang = myServices.sharedPreferences.getString("lang");
     if (sharedPrefLang == "tr") {
       language = const Locale("tr");

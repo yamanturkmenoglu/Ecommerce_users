@@ -26,7 +26,7 @@ class Swipercardhome extends StatelessWidget {
                 style: const TextStyle(color: Appcolor.sari, fontSize: 19),
               ),
             ),
-            height: 120,
+            height: 150,
             decoration: BoxDecoration(
                 color: Appcolor.orange,
                 borderRadius: BorderRadius.circular(20)),

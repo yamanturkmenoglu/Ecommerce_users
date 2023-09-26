@@ -5,7 +5,7 @@ import 'package:flutter_eticaret/core/constant/imageasset.dart';
 import 'package:lottie/lottie.dart';
 
 class Handilingdataview extends StatelessWidget {
-  const Handilingdataview({
+  Handilingdataview({
     Key? key,
     required this.statusRequest,
     required this.widget,

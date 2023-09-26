@@ -70,11 +70,13 @@ class MyTranslation extends Translations {
           "55": "şifre eşleşmiyor",
           "56": "Tekrar deneyin",
           "57": "Marka,ürün veya kategori ara",
-          "58": "c",
+          "58": "YAZ FIRSATLARI KAÇIRMAYIN",
           "59": "%40 VARAN İNDİRİMLER",
           "60": "İndirimli ürünler ",
           "61": "Sana özel ",
-          "62": "",
+          "62": "categoriler",
+          "63": "En çok satılanlar",
+          "64": "ÜRÜNÜN AÇIKLAMASI :",
         },
         "en": {
           //onboarding
@@ -145,7 +147,9 @@ class MyTranslation extends Translations {
           "59": "UP TO 40% OFF",
           "60": "Discounted products",
           "61": "Special for you",
-          "62": "",
+          "62": "categories",
+          "63": "Best Sellers",
+          "64": "PRODUCT DESCRIPTION :",
         }
       };
 }

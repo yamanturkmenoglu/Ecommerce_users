@@ -4,12 +4,15 @@ import 'package:flutter_eticaret/core/constant/colors.dart';
 import 'package:flutter_eticaret/core/localization/changelanguage.dart';
 import 'package:flutter_eticaret/core/services/services.dart';
 import 'package:flutter_eticaret/routes.dart';
+import 'package:flutter_statusbarcolor_ns/flutter_statusbarcolor_ns.dart';
 import 'package:get/get.dart';
 import 'core/localization/translation.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initialServices();
+  FlutterStatusbarcolor.setStatusBarColor(Colors.white);
+  FlutterStatusbarcolor.setStatusBarWhiteForeground(false);
   runApp(const MyApp());
 }
 
@@ -26,6 +29,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       locale: controller.language,
       theme: ThemeData(
+        appBarTheme: const AppBarTheme(color: Appcolor.orange),
         fontFamily: "Cairo",
         textTheme: const TextTheme(
           headline1: TextStyle(
