@@ -62,3 +62,9 @@ A new Flutter project.
 
 
 ![Coupon](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/43464fab-0cb5-4609-8828-a3d972412fa4)
+
+                                                 Check out page
+
+
+![Check out page](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/f0754426-88dd-4d7b-aa5b-86224da51694)
+![Check out page 2](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/202a7b7b-ffb1-441d-b56a-0109ae9ccf17)
