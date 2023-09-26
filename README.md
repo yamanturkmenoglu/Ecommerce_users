@@ -78,5 +78,7 @@ A new Flutter project.
 ![Address details page](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/87051974-de90-4c72-a08e-f1d15ddcb438)
 ![Address page view](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/f1b45cb6-17a1-47f2-abaa-75354abc348e)
 
+                                                  arshive and Evaluation pages
 
-
+![arshive page](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/29eb7a6f-3b83-4a98-a1c3-187e09795d7c)
+![Evaluation page](https://github.com/yamanturkmenoglu/Ecommerce_users/assets/92741437/d8970166-d2d9-4c0b-b72b-14416ddeac0d)
